@@ -538,7 +538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2300315094123553350, guid: 03b38bff02bee3343b5e0328927374a4, type: 3}
+  powerupPrefab: {fileID: 1122179896103721899}
+  waveNumber: 1
   spawnRange: 9
+  enemyCount: 0
 --- !u!1001 &1403545340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -829,6 +832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff4bb9b73f9d3f14aa57167d713ea87b, type: 3}
+--- !u!1 &1122179896103721899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1096165623557087613, guid: ff4bb9b73f9d3f14aa57167d713ea87b, type: 3}
+  m_PrefabInstance: {fileID: 46325140073855702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7305732181041295649
 PrefabInstance:
   m_ObjectHideFlags: 0
